@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+// import AirBnbClone from './components/AirBnbClone';
+// import DigitalBusinessCard from './components/DigitalBusinessCard';
+// import SignUpPractice from './components/SignUpPractice';
+// import MemeGenerator from "./components/MemeGenerator";
+
+// import ReactFacts from "./components/ReactFacts";
+// import Tenzies from "./components/Tenzies";
+import Quizzical from './components/Quizzical';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return (  
+    <div>
+      {/* <DigitalBusinessCard/> */}
+      {/* <AirBnbClone/> */}
+      {/* <SignUpPractice/> */}
+      {/* <MemeGenerator/> */}
+      {/* <ReactFacts/> */}
+      {/* <Tenzies/> */}
+      <Quizzical/>
     </div>
   );
 }
